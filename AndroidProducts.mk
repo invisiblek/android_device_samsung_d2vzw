@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/device_d2vzw.mk
+    $(LOCAL_DIR)/full_d2vzw.mk
