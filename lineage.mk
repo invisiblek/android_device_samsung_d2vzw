@@ -1,6 +1,6 @@
 $(call inherit-product, device/samsung/d2vzw/full_d2vzw.mk)
 
-# Inherit some common CM stuff.
+# Inherit some common Lineage stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
@@ -11,6 +11,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 PRODUCT_GMS_CLIENTID_BASE := android-verizon
 
-PRODUCT_NAME := cm_d2vzw
+PRODUCT_NAME := lineage_d2vzw
 PRODUCT_DEVICE := d2vzw
 
